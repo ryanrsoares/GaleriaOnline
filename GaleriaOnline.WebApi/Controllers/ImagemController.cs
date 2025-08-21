@@ -38,7 +38,7 @@ namespace GaleriaOnline.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetTodasAsImagens()
         {
-            var imagens = await _repository.getAllAsync();
+            var imagens = await _repository.GetAllAsync();
             return Ok(imagens);
         }
 

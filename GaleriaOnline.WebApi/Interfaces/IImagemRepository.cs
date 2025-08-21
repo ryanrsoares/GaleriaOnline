@@ -4,7 +4,7 @@ namespace GaleriaOnline.WebApi.Interfaces
 {
     public interface IImagemRepository
     {
-        Task<IEnumerable<Imagem>> getAllAsync();
+        Task<IEnumerable<Imagem>> GetAllAsync();
         Task<Imagem?> GetByIdAsync(int id);
         Task<Imagem> CreateAsync(Imagem imagem);
         Task<bool> UpdateAsync(Imagem imagem);

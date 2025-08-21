@@ -15,7 +15,7 @@ namespace GaleriaOnline.WebApi.Repositories
         {
             _context = context;
         }
-        public async Task<IEnumerable<Imagem>> getAllAsync()
+        public async Task<IEnumerable<Imagem>> GetAllAsync()
         {
             return await _context.Imagens.ToListAsync();
         }
