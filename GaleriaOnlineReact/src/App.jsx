@@ -1,11 +1,11 @@
 import './App.css'
-import { Galeria } from './pages/galeria/Galeria'
+import { Rotas } from "./routes/Routes"
 
 function App() {
 
   return (
     <>
-    <Galeria/>
+    <Rotas/>
     </>
   )
 }
